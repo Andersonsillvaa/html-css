@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right, white, blue);
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(98, 123, 179, 0.863);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    background-attachment: fixed;
+}
+
+h1{
+    color: rgba(35, 40, 187, 0.85);
+    text-shadow: 1px 1px 3px rgba(52, 52, 95, 0.678);
+    text-align: center;
+}
+
+h2{
+    color: rgba(9, 95, 182, 0.75);
+}
