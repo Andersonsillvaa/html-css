@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+
+        table {
+            border-collapse: collapse;
+            width: 500px;
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .especial, #principal {
+            background-color: gray;
+            color: white;
+        }
+
+        .num {
+            text-align: center;
+        }
+
+        .align {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <table>
+
+        <thead>
+            <tr>
+            <th class="especial" rowspan="2" scope="row">Área</th>
+            <th class="especial" rowspan="2" scope="row">Disciplina</th>
+            <th class="especial" colspan="2" scope="rowgroup">Notas</th>
+            <th class="especial" rowspan="2" scope="row">Média</th>
+            </tr>
+            <tr>
+                <th class="especial" scope="row">Nota 1</th>
+                <th class="especial" scope="row">Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4" scope="colgroup">Exatas</th>
+                 <td>Matemática</td>
+                 <td class="num">8,5</td>
+                 <td class="num">4,0</td>
+                 <td class="num">6,0</td>
+            </tr>
+            <tr>
+               <td>Física</td>
+               <td class="num">5,0</td>
+               <td class="num">7,5</td>
+               <td class="num">4,0</td>
+            </tr>
+            <tr>
+                <td>Química</td>
+                <td class="num">3,5</td>
+                <td class="num">6,0</td>
+                <td class="num">8,0</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td class="num">4,0</td>
+                <td class="num">9,0</td>
+                <td class="num">5,0</td>
+            </tr>
+            <tr>
+                <th class="align" id="principal" colspan="4" scope="col">Média de Exatas</th>
+                <td class="num" id="principal">2,5</td>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="colgroup">Humanas</th>
+                <td>História</td>
+                <td>9,0</td>
+                <td>4,5</td>
+                <td>6,0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>10</td>
+                <td>8,0</td>
+                <td>4,0</td>
+            </tr>
+            <tr>
+                <th class="align" colspan="4" id="principal" scope="col">Média de Humanas</th>
+                <td id="principal">10</td>
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+</html>
