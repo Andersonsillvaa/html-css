@@ -8,10 +8,33 @@
 </head>
 <body>
     <h1>Teste de formulário</h1>
-    <form action="cadastro.php" method="get">
+    <form action="cadastro.php" method="get" autocomplete="on">
         <p>
             <label for="inome">Nome:</label> <br>
-            <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome completo">
+            <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome completo" autocomplete="name"> <br>
+        </p>
+
+        <p>
+            <label for="imedia">Média:</label> <br>
+            <input type="number" name="media" id="imedia" min="0" max="10" placeholder="0 a 10" step="0.5" required value="5">
+        </p>
+
+        <p>
+            <label for="imes">Período Letivo:</label> <br>
+            <input type="month" name="mes" id="imes" required value="2023-03">
+        </p>
+
+        <p>
+            <label for="idia">Dia da Prova:</label> <br>
+            <input type="date" name="dia" id="idia" required value="2023-03-21">
+        </p>
+
+        <label for="ihora">Horário da Prova:</label> <br>
+        <input type="time" name="hora" id="ihora">
+
+        <p>
+           <input type="submit" value="Enviar">
+           <input type="reset" value="Limpar">
         </p>
 
     </form>
