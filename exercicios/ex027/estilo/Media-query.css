@@ -1,5 +1,24 @@
 @charset "UTF-8";
 
+@media print {
+    main {
+        background-image: url('../imagem/icon-print.png');
+        border: 2px solid black;
+    }
+
+    main h1 {
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: none;
+        color: black;
+    }
+
+    img#tel {display: none;}
+    img#tablet {display: none;}
+    img#pc {display: none;}
+    img#tv {display: none;}
+    img#impre {display: block;}
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
         background-image: url('../imagem/back-tablet.jpg');
@@ -9,6 +28,7 @@
     img#tablet {display: block;}
     img#pc {display: none;}
     img#tv {display: none;}
+    img#impre {display: none;}
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -20,6 +40,7 @@
     img#tablet {display: none;}
     img#pc {display: block;}
     img#tv {display: none;}
+    img#impre {display: none;}
 }
 
 @media screen and (min-width: 1201px) {
@@ -31,4 +52,5 @@
     img#tablet {display: none;}
     img#pc {display: none;}
     img#tv {display: block;}
+    img#impre {display: none;}
 }
