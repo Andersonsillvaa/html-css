@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/Media-Query.css">
+    <title>Media Query</title>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <i id="menu" class="material-icons" onclick="clicar()">menu</i>
+        <nav id="itens">
+            <ul>
+                <li><a href="">Opção 1</a></li>
+                <li><a href="">Opção 2 </a></li>
+                <li><a href="">Opção 3</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h1>Testando Media Query</h1>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius necessitatibus eum nam facilis non pariatur nulla asperiores. Qui alias repellendus sunt est, enim, rem facere perspiciatis modi quod, omnis laboriosam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat hic, rerum eum, qui laborum totam quae praesentium eos eius autem esse tempora dolorum animi aliquid sed maxime, nobis quisquam repellendus.
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem quia corporis aperiam. Earum, quod est! Alias maiores culpa dolore architecto voluptatibus saepe pariatur? Numquam sint animi tenetur repellat amet ipsum!
+            </p>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe aliquam itaque quibusdam quis aperiam blanditiis dolorum cupiditate sapiente accusamus maiores, recusandae nostrum veniam ab? Dignissimos illum id deleniti praesentium fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda debitis ipsum odio. Ullam cum corrupti nam optio tempora dolores dolorum cumque, minus veniam ipsum, ut aut. Corrupti distinctio nesciunt eum?</p>
+        </article>
+    </main>
+
+    <script>
+        function clicar() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
