@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+i#menu {
+    display: none;
+}
+
+nav {
+    display: block;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/paisagem.css" media="screen and (orientation: landscape)">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <title>Tela de Login</title>
+</head>
+<body>
+    <main>
+        <section id="secao">
+            <div id="foto">
+                <img src="imagem/pexels-scott-webb-136205.jpg" alt="">
+            </div>
+
+            <div id="login">
+                <h1>Login</h1>
+                <p>
+                    Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.
+                    <hr>
+                </p>
+            </div>
+
+            <form action="cadastro.php" method="post" autocomplete="off">
+                <div>
+                    <label for="iusu">Usuário:</label>
+                    <input type="text" name="usu" class="inp" id="iusu" required>
+                </div>
+                <div>
+                    <label for="isen">Senha:</label>
+                    <input type="password" name="senha" class="inp" id="isen" required minlength="8" maxlength="12">
+                </div>
+                
+                <div class="especial">
+                    <input type="submit" id="botao" value="Entrar">
+                    <input type="submit" id="botsen" value="Esqueci a senha">
+                </div>
+            </form>
+        </section>
+    </main>
+
+    
+</body>
+</html>
