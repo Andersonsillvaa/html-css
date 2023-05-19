@@ -139,7 +139,7 @@ section > h2 {
     text-align: center;
     cursor: pointer;
     width: 350px;
-    height: 300px;
+    height: auto;
     margin: 20px;
     margin-top: 5%;
     padding: 30px;
