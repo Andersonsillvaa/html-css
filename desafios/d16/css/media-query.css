@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 718px) and (max-width: 1364px) {
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .header {
+        display: block;
+    }
+
+    .headline {
+        display: block;
+        text-align: center;
+    }
+
+    .headline p {
+        text-align: center;
+        margin: auto;
+        line-height: 1.6em;
+    }
+
+    .card {
+        display: block;
+        height: 320px;
+        padding: 10px;
+    }
+
+    .whats {
+        margin-bottom: 5%;
+    }
+}

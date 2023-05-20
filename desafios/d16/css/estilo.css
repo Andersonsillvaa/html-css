@@ -10,11 +10,12 @@
 
 main {
     max-width: 9000px;
+    margin: auto;
 }
 
 .navbar {
     display: flex;
-    position: fixed;
+    position: sticky;
     width: 100%;
     background-color: white;
     justify-content: space-between;
@@ -25,7 +26,7 @@ main {
 }
 
 .logo {
-    margin-left: 11%;
+    margin-left: 7%;
 }
 
 .logo > h1 {
@@ -89,7 +90,6 @@ main {
 
 .img-headline img {
     margin-left: 15%;
-    margin-right: 15%;
     margin-bottom: 20%;
 }
 
