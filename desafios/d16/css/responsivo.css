@@ -20,6 +20,10 @@ header p {
     line-height: 1.5em;
 }
 
+.headline {
+    margin-top: 15%;
+}
+
 .lipp {
     display: flex;
     justify-content: flex-end;
