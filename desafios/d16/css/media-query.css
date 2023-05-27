@@ -25,9 +25,13 @@
 }
 
 .headline p  {
-    text-decoration: none;
     margin: auto;
+    margin-top: 20px;
     line-height: 1.5em;
+}
+
+.contact-btn {
+    margin-right: 14%;
 }
 
 section {
