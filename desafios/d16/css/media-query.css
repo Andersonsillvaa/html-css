@@ -1,39 +1,89 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 718px) and (max-width: 1364px) {
+@media screen and (max-width: 900px) {
 
-    .navbar {
-        display: flex;
-        justify-content: center;
-        padding: 20px;
-    }
-
-    .menu {
-        display: none;
-    }
-
-    .header {
-        display: block;
-    }
-
-    .headline {
-        display: block;
-        text-align: center;
-    }
-
-    .headline p {
-        text-align: center;
-        margin: auto;
-        line-height: 1.6em;
-    }
-
-    .card {
-        display: block;
-        height: 320px;
-        padding: 10px;
-    }
-
-    .whats {
-        margin-bottom: 5%;
-    }
+.logo > h1 {
+    text-align: center;
+    padding: 15px;
 }
+
+.menu {
+    display: none;
+}
+
+.img-headline {
+    display: none;
+}
+
+.header {
+    margin-top: 20%;
+    margin-left: 50px;
+}
+
+.headline h2 {
+    text-align: center;
+}
+
+.headline p  {
+    text-decoration: none;
+    margin: auto;
+    line-height: 1.5em;
+}
+
+section {
+    margin-top: 10%;
+}
+
+section > h2 {
+    margin-bottom: 20px;
+}
+
+.card {
+    display: block;
+    margin: auto;
+    height: 320px;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+.menu {
+    display: none;
+}
+
+header p {
+    line-height: 1.5em;
+}
+
+.lipp {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.headline h2 {
+   text-align: center;
+   font-size: 1.3em;
+   margin: 0;
+}
+
+.img-headline {
+    display: none;
+}
+
+.servicos {
+    display: block;
+    text-align: center;
+}
+
+.card {
+    width: 88vw;
+}
+   
+}
+
