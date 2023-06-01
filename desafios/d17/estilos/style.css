@@ -1,0 +1,216 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10%;
+}
+
+#logo a {
+    color: black;
+    text-decoration: none;
+}
+
+nav {
+   margin-right: 15%;
+}
+
+nav ul > li {
+    display: inline-block;
+    padding: 20px;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background-image: url('../imagem/main-bg.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    margin-bottom: 10%;
+}
+
+.especial {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10%;
+}
+
+.especial > h2 {
+    font-size: 60px;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.3em;
+}
+
+.container img {
+    margin-right: 10%;
+}
+
+.flex-container {
+    font-size: 2.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+}
+
+.flex-container h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.text > div {
+   max-width: 60rem;
+   margin: auto;
+   text-align: center;
+}
+
+.text-art {
+    background-image: url('../imagem/main-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10rem;
+    height: 100vh;
+}
+
+.pai-container01 > div > h2 {
+    font-size: 6rem;
+}
+
+.pai-container01 > div{
+    margin-top: 10rem;
+    margin-left: 24rem;
+    padding-top: 10rem;
+}
+
+.pai-container01 > div p {
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+h3 {
+    font-size: 4rem;
+}
+
+h3::first-letter {
+    font-size: 8rem;
+}
+
+.text-art div {
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.pai-container02 {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    column-gap: 40px;
+    justify-content: center;
+}
+
+.grid-img div img {
+    border-radius: 50%;
+}
+
+.grid-img {
+    display: grid;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.gallery {
+    margin-bottom: 5rem;
+}
+
+.gallery h2 {
+    font-family: sans-serif;
+    font-size: 60px;
+}
+
+.gallery p {
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.img-01 img {
+    margin-right: 70px;
+}
+
+.js {
+    margin-bottom: 1rem;
+    padding: 15px;
+}
+
+.img-02 img {
+    margin-top: 4rem;
+    margin-right: 80px;
+    padding: 15px;
+}
+
+.img {
+    border-radius: 100%;
+}
+
+.img img:hover {
+    border: 1px solid rgba(11, 11, 105, 0.377);
+}
+
+.fun-img {
+    background-image: url('../imagem/main-bg.svg');
+    color: white;
+    height: 100vh;
+}
+
+.tih2 h2 {
+    font-size: 6rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    margin-left: 24rem;
+    padding-top: 10rem;
+}
+
+.grid-text {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    column-gap: 40px;
+    justify-content: center;
+}
+
+.grid-text div > p {
+    font-family: sans-serif;
+    margin-top: 40px;
+    font-size: 20px;
+}
