@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 html {
@@ -21,7 +22,6 @@ header {
 }
 
 header > h1 {
-    font-family: Arial, Helvetica, sans-serif;
     margin-left: 10%;
 }
 
@@ -41,7 +41,6 @@ nav ul > li {
 
 nav > ul > li > a {
     text-decoration: none;
-    font-family: sans-serif;
     font-size: 18px;
     color: black;
 }
@@ -59,7 +58,6 @@ nav > ul > li > a {
 }
 
 .especial {
-    font-family: Arial, Helvetica, sans-serif;
     margin-left: 10%;
 }
 
@@ -69,8 +67,12 @@ nav > ul > li > a {
     margin-bottom: 20px;
 }
 
+.especial p {
+    max-width: 70rem;
+}
+
 p {
-    font-size: 20px;
+    font-size: 2rem;
     line-height: 1.3em;
 }
 
@@ -80,12 +82,10 @@ p {
 
 .flex-container {
     font-size: 2.3rem;
-    font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5em;
 }
 
 .flex-container h2 {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 60px;
     text-align: center;
     margin-bottom: 5%;
@@ -129,7 +129,6 @@ h3::first-letter {
 }
 
 .text-art div {
-    font-family: sans-serif;
     font-size: 2.5rem;
     color: white;
 }
@@ -156,12 +155,10 @@ h3::first-letter {
 }
 
 .gallery h2 {
-    font-family: sans-serif;
     font-size: 60px;
 }
 
 .gallery p {
-    font-family: sans-serif;
     font-size: 25px;
 }
 
@@ -192,6 +189,7 @@ h3::first-letter {
     background-image: url('../imagem/main-bg.svg');
     color: white;
     height: 100vh;
+    margin-bottom: 10rem;
 }
 
 .tih2 h2 {
@@ -210,7 +208,134 @@ h3::first-letter {
 }
 
 .grid-text div > p {
-    font-family: sans-serif;
     margin-top: 40px;
     font-size: 20px;
+}
+
+.artigo-principal div {
+    max-width: 70rem;
+    margin: auto;
+}
+
+.artigo-principal div h2 {
+    font-size: 6rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.artigo-principal div p {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 70rem;
+}
+
+legend {
+    font-size: 16px;
+    padding: 5px;
+    text-indent: 40.4rem;
+}
+
+th {
+    font-size: 25px; 
+    background-color: rgba(226, 226, 226, 0.739);
+    font-weight: bold;
+    text-align: left;
+}
+
+td {
+    font-size: 20px;
+}
+
+td, th {
+    border: 1px solid rgba(226, 226, 226, 0.739);
+    padding: 10px;
+}
+
+.center {
+    margin-bottom: 20rem;
+}
+
+.ins-img > article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../imagem/main-bg.svg');
+    color: white;
+    height: 100vh;
+}
+
+.div-kr8 {
+    margin-left: 15%;
+}
+
+.ins-img > article img {
+    margin-left: 5rem;
+    margin-top: 15rem;
+    margin-right: 8rem;
+}
+
+.ins-img > article h2 {
+    font-size: 6rem;
+    margin-bottom: 60px;
+}
+
+.pt-input div > h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+form {
+    margin-top: 5rem;
+}
+
+input {
+    font-size: 30px;
+    padding: 15px;
+    margin-bottom: 3rem;
+}
+
+.form01 {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 480px);
+
+    top: 50%;
+    left: 30%;
+}
+
+#iemail {
+    width: 57.6vw;
+}
+
+.botao {
+    background-color: transparent;
+    color: white;
+    border: 5px solid white;
+    width: 300px;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+
+.inp-bo {
+    text-indent: 289px;
+    margin-top: 20px;
+}
+
+footer {
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+footer > p > a {
+    font-weight: bolder;
 }
