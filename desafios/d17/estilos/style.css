@@ -62,8 +62,7 @@ nav > ul > li > a {
 }
 
 .especial > h2 {
-    font-size: 60px;
-    line-height: 1.5em;
+    font-size: 5rem;
     margin-bottom: 20px;
 }
 
@@ -284,9 +283,12 @@ td, th {
     margin-bottom: 60px;
 }
 
+.pt-input {
+    padding-left: 30px;
+}
+
 .pt-input div > h2 {
     font-size: 30px;
-    text-align: center;
 }
 
 form {
@@ -302,10 +304,6 @@ input {
 .form01 {
     position: relative;
     display: grid;
-    grid-template-columns: repeat(2, 480px);
-
-    top: 50%;
-    left: 30%;
 }
 
 #iemail {
@@ -317,6 +315,7 @@ input {
     color: white;
     border: 5px solid white;
     width: 300px;
+    margin-bottom: 30%;
 }
 
 .botao:hover {
@@ -326,16 +325,13 @@ input {
 }
 
 .inp-bo {
-    text-indent: 289px;
     margin-top: 20px;
 }
 
-footer {
-    color: black;
-    padding: 10px;
-    text-align: center;
+#imens {
+    width:  57.6vw;
 }
 
-footer > p > a {
-    font-weight: bolder;
+#imens, #iemail {
+    min-width: 405px;
 }

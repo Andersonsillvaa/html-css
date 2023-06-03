@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1000px) {
+
+header {
+    display: none;
+}
+
+.especial p {
+    padding-right: 40px;
+}
+
+.container {
+    display: block;
+}
+
+.container img {
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%, -50%);
+}
+
+.especial h2 {
+    font-size: 40px;
+    padding-top: 20px;
+    width: 100%;
+}   
+
+.text {
+    padding: 20px;
+}
+
+.pai-container01 div > h2 {
+    position: relative;
+    text-align: center;
+    right: 50%;
+    font-size: 50px;
+}
+
+.pai-container01 div p {
+    position: relative;
+    text-align: center;
+    right: 50%;
+}
+
+.text-art {
+    padding: 20px;
+    height: 150%;
+}
+
+.pai-container02 {
+    display: block;
+    padding: 20px;
+    margin-bottom: 70px;
+}
+
+.pai-container02 div {
+    margin-bottom: 50px;
+}
+
+.top-jobs {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.none {
+    display: none;
+}
+
+.img-01 {
+    display: grid;
+    justify-content: center;
+}
+
+.fun-img {
+    height: 100%;
+}
+
+.div-kr8 p {
+    margin-bottom: 200px;
+}
+
+.tih2 > h2 {
+    position: relative;
+    right: 30%;
+    font-size: 50px;
+}
+
+.grid-text {
+    display: block;
+    padding: 0 40px 40px 40px;
+}
+
+.grid-text div h3 {
+    margin-top: 50px;
+}
+
+.grid-text div p {
+    margin-top: 0;
+}
+
+legend {
+    display: none;
+}
+
+div#tabela {
+    overflow-x: auto;
+    padding: 20px;
+}
+
+.container-form {
+    margin-left: 3%;
+}
+
+.botao {
+    margin-bottom: 200px;
+}
+
+}
