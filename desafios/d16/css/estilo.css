@@ -145,6 +145,7 @@ section > h2 {
     border-radius: 10px;
     border: 1px solid #FF2978;
     flex-grow: -1px;
+    animation-name: animacao;
 }
 
 .card:hover {
