@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 320px) and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
 
 header {
     display: none;
@@ -114,7 +114,7 @@ div#tabela {
 }
 
 .form01 p input {
-    width: 57.6vw;
+    width: 50.6vw;
 }
 
 .botao {
