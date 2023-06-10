@@ -1,0 +1,135 @@
+@keyframes seta {
+    to {
+        transform: translateY(20px);
+    }
+}
+
+@keyframes link {
+    from {
+        background-position: 50%;
+    }
+
+    to {
+        background-position: 100%;
+    }
+}
+
+@keyframes titulo {
+    to {
+        color: #f5337ab0;
+    }
+}
+
+@keyframes revelando {
+    from {
+        transform: translateX(-101%);
+    }
+
+    to {
+        transform: translateX(101%);
+    }
+}
+
+@keyframes botao {
+    to {
+        opacity: 1;
+    }
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+}
+
+@keyframes card1 {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+.card span:nth-of-type(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, transparent, #FF2978);
+    width: 100%;
+    height: 3px;
+    animation-name: card1;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes card2 {
+    0% {
+        transform: translatey(-100%);
+    }
+
+    100% {
+        transform: translatey(100%);
+    }
+}
+.card span:nth-of-type(2) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: linear-gradient(to bottom, transparent, #FF2978);
+    width: 3px;
+    height: 100%;
+    animation-name: card2;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes card3 {
+    0% {
+        transform: translatex(100%);
+    }
+
+    100% {
+        transform: translatex(-100%);
+    }
+}
+.card span:nth-of-type(3) {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(to left, transparent, #FF2978);
+    width: 100%;
+    height: 3px;
+    animation-name: card3;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes card4 {
+    0% {
+        transform: translatey(100%);
+    }
+
+    100% {
+        transform: translatey(-100%);
+    }
+}
+.card span:nth-of-type(4) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to top, transparent, #FF2978);
+    width: 3px;
+    height: 100%;
+    animation-name: card4;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}

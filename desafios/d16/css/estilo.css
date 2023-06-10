@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -22,6 +23,7 @@ main {
     align-content: center;
 
     top: 0px;
+    z-index: 2;
 }
 
 .logo {
@@ -32,6 +34,10 @@ main {
     font-family: 'Lobster', cursive;
     font-size: 2.2em;
     color: #180F4A;
+    animation-name: titulo;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
 
 .menu {
@@ -62,9 +68,15 @@ main {
     margin-left: 30px;
     margin-top: 10px;
     border-radius: 5px;
-    background-color: #180F4A;
+    background-image: linear-gradient(to left, #180F4A, #FF2978);
+    background-size: 300% 300%;
     color: white;
+    animation-name: link;
+    animation-duration: 1.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
+
 #botao:hover {
     background-color: #FF2978;
 }
@@ -99,16 +111,40 @@ main {
     margin-bottom: 1%
 }
 
+.lipp {
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+    padding: 15px;
+    &::after {
+        animation-name: revelando;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        background-color: #FF2978;
+        position: absolute;
+        content: '';
+        display: block;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+}
+
 .contact-btn {
-    display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
     text-decoration: none;
-    background-color: #FF2978;
-    color: white;
-    padding: 20px;
-    margin-top: 10px;
-    border-radius: 5px;
+    font-size: 20px;
+    color: #FF2978;
+    opacity: 0;
+    animation-name: botao;
+    animation-duration: 5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.contact-btn:hover {
+    color: #180F4A;
 }
 
 .pr1 {
@@ -117,15 +153,21 @@ main {
     margin-top: 20px;
 }
 
-.contact-btn:hover {
-    background-color: #180F4A;
-}
-
 section > h2 {
     font-family: 'Lobster', cursive;
     font-size: 3em;
     text-align: center;
     color: #180F4A;
+}
+
+.efeito {
+    position: relative;
+    left: 46.5%;
+    margin-top: 5%;
+    animation-name: seta;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
 
 .servicos {
@@ -140,10 +182,8 @@ section > h2 {
     cursor: pointer;
     width: 30%;
     margin: 20px;
-    margin-top: 5%;
     padding: 30px;
     border-radius: 10px;
-    border: 1px solid #FF2978;
     flex-grow: -1px;
     animation-name: animacao;
 }
