@@ -77,7 +77,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    background: linear-gradient(to bottom, transparent, #FF2978);
+    background: linear-gradient(to bottom, transparent, );
     width: 3px;
     height: 100%;
     animation-name: card2;
@@ -101,7 +101,7 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    background: linear-gradient(to left, transparent, #FF2978);
+    background: linear-gradient(to left, transparent, #180F4A);
     width: 100%;
     height: 3px;
     animation-name: card3;
@@ -124,7 +124,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: linear-gradient(to top, transparent, #FF2978);
+    background: linear-gradient(to top, transparent, #180F4A);
     width: 3px;
     height: 100%;
     animation-name: card4;
