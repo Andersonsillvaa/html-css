@@ -48,7 +48,8 @@ main {
 }
 
 
-.menu a {
+.menu > a {
+    position: relative;
     text-decoration: none;
     font-size: 1.3em;
     font-family: Arial, Helvetica, sans-serif;
@@ -57,9 +58,20 @@ main {
     margin-bottom: 5%;
 }
 
-.menu a:hover {
-    color: #FF2978;
-    text-decoration: underline;
+.menu > .linkp::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    background-color: #FF2978;
+    width: 0%;
+    height: 3px;
+
+    transition: 0.5s;
+}
+
+.menu > .linkp:hover::after {
+    width: 100%;
 }
 
 #botao {
@@ -160,19 +172,8 @@ section > h2 {
     color: #180F4A;
 }
 
-.efeito {
-    position: relative;
-    left: 46.5%;
-    margin-top: 5%;
-    animation-name: seta;
-    animation-duration: 1s;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-}
-
 .servicos {
     display: flex;
-
     justify-content: center;
 }
 
@@ -184,6 +185,7 @@ section > h2 {
     margin: 20px;
     padding: 30px;
     border-radius: 10px;
+    border: 1px solid #FF2978;
     flex-grow: -1px;
     animation-name: animacao;
 }
