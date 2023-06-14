@@ -15,6 +15,11 @@
     display: none;
 }
 
+.lipp {
+    margin-left: 10%;
+    width: 50%;
+}
+
 .img-headline {
     display: none;
 }
@@ -48,6 +53,34 @@ section > h2 {
     height: 320px;
     padding: 10px;
     margin-bottom: 20px;
+}
+
+.card:hover {
+    background-color: #FF2978;
+    color: white;
+}
+
+.card:hover .card-text {
+    display: none;
+}
+
+.card:hover img {
+    display: none;
+}
+
+.card:hover .texto-oculto {
+    display: block;
+    padding: 20px;
+}
+
+.card h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.texto-oculto {
+    display: none;
 }
 
 .navbar {

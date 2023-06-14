@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+.card:hover .card-text {
+    display: none;
+}
+
+.card:hover .texto-oculto {
+    left: 0;
+    background-color: #FF2978;
+    color: white;
+}
+
+.card:hover img {
+    display: none;
+}
+
+.card-text, .texto-oculto {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.texto-oculto {
+    left: 100%;
+    padding-top: 20%;
+    transition: left 0.5s;
+}

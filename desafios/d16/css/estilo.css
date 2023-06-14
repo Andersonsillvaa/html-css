@@ -109,12 +109,11 @@ main {
 }
 
 .img-headline {
-    display: flex;
     margin-right: 15%;
 }
 
 .img-headline img {
-    margin-bottom: 20%;
+    margin-bottom: 50%;
 }
 
 .headline > h2 {
@@ -124,10 +123,12 @@ main {
 }
 
 .lipp {
-    width: 50%;
+    margin-top: 15px;
+    width: 22%;
     position: relative;
     overflow: hidden;
-    padding: 15px;
+    padding: 10px;
+    transform: scale(1);
     &::after {
         animation-name: revelando;
         animation-duration: 3s;
@@ -145,9 +146,13 @@ main {
 
 .contact-btn {
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
     text-decoration: none;
     font-size: 20px;
-    color: #FF2978;
+    background-color: #FF2978;
+    padding: 10px;
+    color: #0d0928;
+    border-radius: 10px;
     opacity: 0;
     animation-name: botao;
     animation-duration: 5s;
@@ -156,7 +161,8 @@ main {
 }
 
 .contact-btn:hover {
-    color: #180F4A;
+    background-color: #180F4A;
+    color: #FF2978;
 }
 
 .pr1 {
@@ -175,49 +181,55 @@ section > h2 {
 .servicos {
     display: flex;
     justify-content: center;
+    width: 100%;
+    height: 100%;
 }
 
 .card {
+    position: relative;
+    overflow: hidden;
     display: inline-block;
     text-align: center;
     cursor: pointer;
-    width: 30%;
+    line-height: 1.5em;
+    width: 100%;
+    height: 250px;
     margin: 20px;
-    padding: 30px;
     border-radius: 10px;
     border: 1px solid #FF2978;
     flex-grow: -1px;
-}
-
-.card:hover {
-    background-color: #FF2978;
-    color: white;
-}
-
-.card:hover .card-text {
-    display: none;
 }
 
 .card:hover img {
     display: none;
 }
 
-.card:hover .texto-oculto {
-    display: block;
-    padding: 20px;
+.card-text, .texto-oculto {
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
-.card h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 10px;
-    margin-bottom: 20px;
+.card:hover .card-text {
+    opacity: 0;
+}
+
+.card:hover .texto-oculto {
+    left: 0;
+    opacity: 1;
+    background-color: #FF2978;
+    color: white;
 }
 
 .texto-oculto {
-    display: none;
+    opacity: 0;
+    left: 100%;
+    padding-top: 10%;
+    transition: left 1s;
 }
 
 .whats {
+    transform: scale(1);
     position: fixed;
 
     right: 5px;
