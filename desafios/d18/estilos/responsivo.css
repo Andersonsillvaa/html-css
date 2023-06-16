@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 800px) {
+    header h1 {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    nav {
+        display: none;
+    }
+
+    .especial h2 {
+        line-height: 1.5em;
+    }
+
+    .especial {
+        padding: 20px;
+    }
+
+    img {
+        width: 30rem;
+        padding: 3rem;
+    }
+
+    .text {
+        padding: 20px;
+    }
+
+    .top-jobs h2 {
+        font-size: 40px;
+    }
+
+    .artigo-principal {
+        padding: 5rem  2rem 2rem;
+    }
+
+    table {
+        width: 400px;
+    }
+
+    .div-kr8 {
+        padding: 1rem 2rem 0 2rem;
+    }
+
+    
+.container-form {
+    padding-left: 2rem;
+}
+
+}

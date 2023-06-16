@@ -1,0 +1,9 @@
+@keyframes botao-inp {
+    from {
+        background-position: 50%;
+    }
+
+    to {
+        background-position: 100%;
+    }
+}
