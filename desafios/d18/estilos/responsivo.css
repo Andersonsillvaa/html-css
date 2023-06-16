@@ -16,10 +16,6 @@
         display: none;
     }
 
-    p {
-        font-size: 25px;
-    }
-
     .especial h2 {
         line-height: 1.5em;
     }
@@ -47,8 +43,6 @@
 
     table {
         width: 400px;
-        height: 200px;
-        font-size: 25px;
     }
 
     .div-kr8 {
