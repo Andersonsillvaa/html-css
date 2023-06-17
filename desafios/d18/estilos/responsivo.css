@@ -76,19 +76,9 @@ input {
     font-size: 20px;
 }
 
-span.span1 {
+span {
     position: absolute;
-    left: 26.5%;
-    transform: translate(-50%);
-    font-size: 16px;
-    padding: 20px 0;
-    transition: 0.5s;
-}
-
-span.span2 {
-    position: absolute;
-    left: 24%;
-    transform: translate(-50%);
+    left: 18%;
     font-size: 16px;
     padding: 20px 0;
     transition: 0.5s;
