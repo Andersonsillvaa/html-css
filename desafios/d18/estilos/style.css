@@ -195,6 +195,7 @@ table {
     overflow-x: scroll;
     border-collapse: collapse;
     width: 650px;
+    margin-bottom: 5rem;
     text-align: center;
 }
 
