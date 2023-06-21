@@ -19,19 +19,16 @@ html {
 
 header {
     display: flex;
-    justify-content: space-between;
-    padding-top: 10px;
+    justify-content: space-around;
     padding-bottom: 10px;
-    padding-left: 10%;
-    position: sticky;
-    top: 0%;
-    background-color: white;
-    z-index: 3;
+    height: 100px;
+    line-height: 100px;
 }
 
 nav a {
     position: relative;
     padding: 5px;
+    font-size: 20px;
 }
 
 nav a::after {
@@ -71,13 +68,14 @@ a {
     line-height: 1.5em;
     padding-top: 50px;
     margin-bottom: 10%;
+    display: flex;
 }
 
 p {
     font-size: 20px;
 }
 
-.container img {
+img {
     position: relative;
     left: 50%;
     transform: translate(-50%);

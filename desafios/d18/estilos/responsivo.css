@@ -1,10 +1,5 @@
 @charset "UTF-8";
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 h1 {
     border: none;
 }
@@ -15,9 +10,7 @@ h2 {
 }
 
 header h1 {
-    position: relative;
-    left: 45%;
-    transform: translate(-50%);
+    text-align: center;
 }
 
 nav {
@@ -71,20 +64,14 @@ table {
 }
 
 input {
-    margin-left: 2.5rem;
-    width: 80%;
+    width: 100%;
     font-size: 20px;
+    text-align: center;
 }
 
 span {
     position: absolute;
-    left: 18%;
+    left: 2%;
     font-size: 16px;
-    padding: 20px 0;
     transition: 0.5s;
-}
-
-.container-form {
-padding-left: 2rem;
-padding-right: 2rem;
 }
