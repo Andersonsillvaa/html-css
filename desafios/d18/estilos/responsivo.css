@@ -54,6 +54,10 @@ table {
     padding: 1rem 2rem 0 2rem;
 }
 
+.img-maior {
+    display: none;
+}
+
 .ins-img {
     overflow: hidden;
     margin: auto;
@@ -70,4 +74,8 @@ span {
     left: 2%;
     font-size: 16px;
     transition: 0.5s;
+}
+
+footer a {
+    font-size: 17px;
 }

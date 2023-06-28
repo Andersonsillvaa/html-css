@@ -68,7 +68,6 @@ a {
     line-height: 1.5em;
     padding-top: 50px;
     margin-bottom: 10%;
-    display: flex;
 }
 
 p {
@@ -255,7 +254,7 @@ tfoot {
 
 .container-form {
     margin-top: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 label {
@@ -269,15 +268,22 @@ input {
     width: 50%;
     padding: 20px;
     border: none;
-    outline: none;
-    border-bottom: 2px solid #050538;
+    border: 2px solid black;
     border-radius: 10px;
     background-image: linear-gradient(to bottom, transparent, #0101ff31);
 }
 
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: rgb(0, 255, 0);
+}
+
 input:valid ~ span,
 input:focus ~ span {
-    transform: translatey(-32px);
+    transform: translatey(-39px);
 }
 
 span {
@@ -303,4 +309,21 @@ span {
     color: black;
     font-weight: 700;
     background-size: 300%;
+}
+
+footer {
+    background-color: #050538;
+    border-top: 5px solid red;
+    padding: 100px;
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
