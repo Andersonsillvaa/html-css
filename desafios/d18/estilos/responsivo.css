@@ -2,6 +2,8 @@
 
 h1 {
     border: none;
+    position: relative;
+    right: 15%;
 }
 
 h2 {

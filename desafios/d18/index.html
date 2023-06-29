@@ -13,6 +13,10 @@
 
 <body>
     <header>
+        <section class="claro">
+            <input type="radio" name="inp" class="escuro" id="escuro" onclick="escuro()">
+            <input type="radio" name="inp" class="escuro" id="escuro1" onclick="claro()" checked>
+        </section>
         <h1><a>LOGO</a></h1>
         <nav>
             <ul>
@@ -21,6 +25,7 @@
                 <li><a href="#top-3">top 3</a></li>
                 <li><a href="#work">work</a></li>
             </ul>
+            
         </nav>
     </header>
 
@@ -191,12 +196,12 @@
                         <div class="form01">
                             <p><br>
                              <input type="text" name="text01" id="text" required> 
-                             <span class="span1">Nome completo</span>
+                             <span id="nome" class="span1">Nome completo</span>
                             </p> <br>
 
                             <p> <br>
                                 <input type="text" name="last" id="ltn" required>
-                                <span class="span2">Sobre nome</span>
+                                <span id="sobre" class="span2">Sobre nome</span>
                             </p> <br>
                         </div>
 
@@ -212,6 +217,8 @@
         <p>Site criado por &copy;<a href="https://github.com/Andersonsillvaa" target="_blank">José Anderson</a></p>
     </footer>
     </main>
+
+    <script src="javascript/index.js"></script>
 </body>
 
 </html>
