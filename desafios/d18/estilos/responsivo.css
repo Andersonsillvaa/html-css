@@ -1,80 +1,81 @@
-h1 {
-    border: none;
-    position: relative;
-    right: 15%;
-}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    h1 {
+        border: none;
+        position: relative;
+    }
 
-h2 {
-    font-size: 35px;
-    padding: 15px;
-}
+    h2 {
+        font-size: 35px;
+        padding: 15px;
+    }
 
-nav {
-    display: none;
-}
+    nav {
+        display: none;
+    }
 
-.especial h2 {
-    line-height: 1.5em;
-}
+    .especial h2 {
+        line-height: 1.5em;
+    }
 
-.especial {
-    padding: 20px;
-}
+    .especial {
+        padding: 20px;
+    }
 
-img {
-    width: 24rem;
-}
+    img {
+        width: 24rem;
+    }
 
-.text {
-    padding: 20px;
-}
+    .text {
+        padding: 20px;
+    }
 
-.top-jobs h2 {
-    font-size: 40px;
-}
+    .top-jobs h2 {
+        font-size: 40px;
+    }
 
-.artigo-principal {
-    padding: 5rem  2rem 2rem;
-}
+    .artigo-principal {
+        padding: 5rem 2rem 2rem;
+    }
 
-.div-kr8 h2 {
-    display: inline-block;
-}
+    .div-kr8 h2 {
+        display: inline-block;
+    }
 
-.div-kr8 p {
-    margin: auto;
-}
+    .div-kr8 p {
+        margin: auto;
+    }
 
-table {
-    width: 80vw;
-}
+    table {
+        width: 80vw;
+    }
 
-.div-kr8 {
-    padding: 1rem 2rem 0 2rem;
-}
+    .div-kr8 {
+        padding: 1rem 2rem 0 2rem;
+    }
 
-.img-maior {
-    display: none;
-}
+    .img-maior {
+        display: none;
+    }
 
-.ins-img {
-    overflow: hidden;
-    margin: auto;
-}
+    .ins-img {
+        overflow: hidden;
+        margin: auto;
+    }
 
-input {
-    width: 100%;
-    font-size: 20px;
-    text-align: center;
-}
+    input {
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+    }
 
-span {
-    position: absolute;
-    left: 2%;
-    font-size: 16px;
-    transition: 0.5s;
-}
+    span {
+        position: absolute;
+        left: 2%;
+        font-size: 16px;
+        transition: 0.5s;
+    }
 
-footer a {
-    font-size: 17px;
+    footer a {
+        font-size: 17px;
+    }
 }
