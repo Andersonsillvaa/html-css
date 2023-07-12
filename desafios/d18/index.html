@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/style02.css" media="all">
     <link rel="stylesheet" href="estilos/responsivo.css" media="screen and (orientation: portrait)">
     <link rel="stylesheet" href="estilos/animacoes.css">
     <title>Landing Page</title>
@@ -13,10 +14,6 @@
 
 <body>
     <header>
-        <section class="claro">
-            <input type="radio" name="inp" class="escuro" id="escuro" onclick="escuro()">
-            <input type="radio" name="inp" class="escuro" id="escuro1" onclick="claro()" checked>
-        </section>
         <h1><a>LOGO</a></h1>
         <nav>
             <ul>
@@ -195,18 +192,20 @@
                     <section class="container-form">
                         <div class="form01">
                             <p><br>
-                             <input type="text" name="text01" id="text" required> 
+                             <input type="text" name="inps" id="text" required> 
                              <span id="nome" class="span1">Nome completo</span>
                             </p> <br>
 
+                            <div id="res"></div>
+
                             <p> <br>
-                                <input type="text" name="last" id="ltn" required>
+                                <input type="text" name="inps" id="ltn" required>
                                 <span id="sobre" class="span2">Sobre nome</span>
                             </p> <br>
                         </div>
 
                         <p class="inp-bo">
-                            <input class="botao" type="button" value="Send message">
+                            <input class="botao" type="button" value="Send message" onclick="validação()">
                         </p>
                     </section>
                  </form>

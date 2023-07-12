@@ -1,18 +1,10 @@
-var corpo = document.body
-function escuro() {
-    var esc = document.getElementById('escuro')
-    var inp = document.getElementById('nome')
-    var inp2 = document.getElementById('sobre')
-    corpo.style.background = 'grey'
-    corpo.style.color = 'white'
-    esc.style.background = 'red'
-    inp.style.color = 'black'
-    inp2.style.color = 'black'
-
-}
-
-function claro() {
-    var claro = document.getElementById('escuro1')
-    corpo.style.background = 'white'
-    corpo.style.color = 'black'
+function validação() {
+    let inp = document.getElementById('text')
+    let res = document.getElementById('res') 
+    if (inp.value.length == 0) {
+        res.style.textAlign = 'center'
+        res.style.color = 'red'
+        res.style.fontWeight = 'bold'
+     res.innerHTML = 'Os campos não podem ficar vazio'   
+    }
 }
