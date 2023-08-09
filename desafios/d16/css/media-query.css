@@ -83,6 +83,10 @@ section > h2 {
     display: none;
 }
 
+#olhos {
+    display: none;
+}
+
 .navbar {
     display: flex;
     justify-content: center;
@@ -118,4 +122,10 @@ header p {
     width: 88vw;
 }
    
+}
+
+@media screen and (max-width: 1220px) {
+    #olhos {
+        display: none;
+    }
 }

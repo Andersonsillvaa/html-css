@@ -228,6 +228,17 @@ section > h2 {
     transition: left 1s;
 }
 
+#olhos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.olho {
+    width: 100px;
+    margin: 15px;
+}
+
 .whats {
     transform: scale(1);
     position: fixed;
